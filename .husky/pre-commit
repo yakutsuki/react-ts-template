@@ -1,0 +1,4 @@
+# 使用 lint-staged 检查代码
+pnpm exec lint-staged
+
+echo Run pre-commit hooks done

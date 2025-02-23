@@ -1,0 +1,28 @@
+# Build outputs
+build/
+dist/
+coverage/
+
+# Dependencies
+node_modules/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# VSCode
+.vsode/
+.yarn/
+
+# Cache
+.cache/
+.next/
+
+# Public assets
+public/
+static/
+assets/
+
+
+

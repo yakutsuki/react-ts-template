@@ -1,0 +1,15 @@
+# Supported browsers
+>1%
+last 2 versions
+not dead
+not IE 11
+
+# Minimum browser versions
+Chrome >= 60
+Firefox >= 60
+Safari >= 12
+Edge >= 79
+
+# Node.js support
+maintained node versions
+

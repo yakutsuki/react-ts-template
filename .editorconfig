@@ -1,0 +1,48 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf # 使用Unix行尾
+insert_final_newline = true # 在文件末尾插入新行
+charset = utf-8 # 使用UTF-8编码
+trim_trailing_whitespace = true # 删除行尾空白
+indent_style = space # 使用空格缩进
+indent_size = 2 # 使用2个空格缩进
+
+# TypeScript and JavaScript files
+[*.{ts,tsx,js,jsx}]
+indent_size = 2
+indent_style = space
+
+# JSON files
+[*.{json,json5}]
+indent_size = 2
+indent_style = space
+
+# YAML files
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
+
+# CSS, SCSS, and less files
+[*.{css,scss,less}]
+indent_size = 2
+indent_style = space
+
+# HTML files
+[*.{html,htm}]
+indent_size = 2
+indent_style = space
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# Package files
+[package.json]
+indent_size = 2
+indent_style = space
+
