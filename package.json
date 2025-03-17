@@ -14,10 +14,10 @@
     "lint:lint-staged": "lint-staged",
     "preview": "npm run build:dev && vite preview",
     "prepare": "husky",
-    "preinstall": "npx only-allow pnpm",
     "commit": "czg"
   },
   "dependencies": {
+    "dayjs": "^1.11.13",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -51,7 +51,9 @@
     "stylelint-order": "^6.0.4",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
-    "vite": "^6.1.0"
+    "vite": "^6.1.0",
+    "vite-plugin-mkcert": "^1.17.6",
+    "vite-tsconfig-paths": "^5.1.4"
   },
   "engines": {
     "node": ">=18.17.0",
